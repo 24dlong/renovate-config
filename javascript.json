@@ -1,0 +1,12 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["github>24dlong/renovate-config//base.json"],
+  "packageRules": [
+    {
+      "description": "Group vitest dependencies together",
+      "matchPackagePatterns": ["^vitest$", "^@vitest/"],
+      "matchUpdateTypes": ["major"],
+      "groupName": "vitest-dependencies"
+    }
+  ]
+}

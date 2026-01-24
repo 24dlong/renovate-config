@@ -1,0 +1,12 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:recommended"],
+  "packageRules": [
+    {
+      "description": "Group minor and patch updates together",
+      "matchUpdateTypes": ["minor", "patch"],
+      "groupName": "minor-updates"
+    }
+  ],
+  "automerge": false
+}
