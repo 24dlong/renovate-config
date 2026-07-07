@@ -22,6 +22,11 @@
       "description": "Skip minimum release age for private registry packages",
       "matchRegistryUrls": ["https://dlong-081924037451.d.codeartifact.us-east-2.amazonaws.com"],
       "minimumReleaseAge": "0 days"
+    },
+    {
+      "description": "Isolate package manager updates",
+      "matchDepTypes": ["packageManager"],
+      "groupName": "package manager"
     }
   ]
 }
