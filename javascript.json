@@ -7,6 +7,11 @@
       "matchPackagePatterns": ["^vitest$", "^@vitest/"],
       "matchUpdateTypes": ["major"],
       "groupName": "vitest-dependencies"
+    },
+    {
+      "description": "Group expo dependencies together",
+      "matchPackagePatterns": ["^expo$", "^@expo/"],
+      "groupName": "expo-dependencies"
     }
   ]
 }
