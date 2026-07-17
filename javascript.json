@@ -10,7 +10,7 @@
     },
     {
       "description": "Group expo dependencies together",
-      "matchPackagePatterns": ["^expo$", "^@expo/"],
+      "matchPackagePatterns": ["expo"],
       "groupName": "expo-dependencies",
       "minimumReleaseAge": "0 days"
     }
