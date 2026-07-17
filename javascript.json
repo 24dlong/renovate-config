@@ -10,7 +10,7 @@
     },
     {
       "description": "Group expo dependencies together",
-      "matchPackagePatterns": ["expo"],
+      "matchPackagePatterns": ["expo", "react-native"],
       "groupName": "expo-dependencies",
       "minimumReleaseAge": "0 days"
     },
