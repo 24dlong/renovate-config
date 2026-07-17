@@ -13,6 +13,11 @@
       "matchPackagePatterns": ["expo"],
       "groupName": "expo-dependencies",
       "minimumReleaseAge": "0 days"
+    },
+    {
+      "description": "Group typescript dependencies together",
+      "matchPackagePatterns": ["^typescript$", "^typescript-eslint$", "^@typescript-eslint/"],
+      "groupName": "typescript-dependencies"
     }
   ]
 }
