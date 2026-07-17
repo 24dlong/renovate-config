@@ -18,6 +18,11 @@
       "description": "Group typescript dependencies together",
       "matchPackagePatterns": ["^typescript$", "^typescript-eslint$", "^@typescript-eslint/"],
       "groupName": "typescript-dependencies"
+    },
+    {
+      "description": "Exclude Storybook dependencies from Renovate",
+      "matchPackagePatterns": ["storybook", "chromatic"],
+      "enabled": false
     }
   ]
 }
