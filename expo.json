@@ -1,0 +1,12 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["github>24dlong/renovate-config//javascript.json"],
+  "packageRules": [
+    {
+      "description": "Group expo dependencies together",
+      "matchPackagePatterns": ["expo", "react"],
+      "groupName": "expo-dependencies",
+      "minimumReleaseAge": "0 days"
+    }
+  ]
+}

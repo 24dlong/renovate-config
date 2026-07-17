@@ -9,10 +9,9 @@
       "groupName": "vitest-dependencies"
     },
     {
-      "description": "Group expo dependencies together",
-      "matchPackagePatterns": ["expo", "react-native"],
-      "groupName": "expo-dependencies",
-      "minimumReleaseAge": "0 days"
+      "description": "Group react dependencies together",
+      "matchPackagePatterns": ["react"],
+      "groupName": "react-dependencies"
     },
     {
       "description": "Group typescript dependencies together",
