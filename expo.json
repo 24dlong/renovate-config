@@ -3,10 +3,21 @@
   "extends": ["github>24dlong/renovate-config//javascript.json"],
   "packageRules": [
     {
-      "description": "Group expo dependencies together",
-      "matchPackagePatterns": ["expo", "react"],
+      "description": "Exclude updates for packages where Expo SDK controls compatible dependency versions",
+      "matchPackageNames": [
+        "/expo/",
+        "!/^expo$/",
+        "/react/",
+        "/typescript/"
+      ],
+      "enabled": false
+    },
+    {
+      "description": "Isolate all Expo package updates",
+      "matchPackageNames": ["expo"],
       "groupName": "expo-dependencies",
-      "minimumReleaseAge": "0 days"
+      "minimumReleaseAge": "0 days",
+      "addLabels": ["expo-sdk"]
     }
   ]
 }
