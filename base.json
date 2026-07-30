@@ -5,6 +5,9 @@
   "dependencyDashboardApproval": false,
   "prCreation": "immediate",
   "automerge": true,
+  "pre-commit": {
+    "enabled": true
+  },
   "hostRules": [
     {
       "matchHost": "dlong-081924037451.d.codeartifact.us-east-2.amazonaws.com",
