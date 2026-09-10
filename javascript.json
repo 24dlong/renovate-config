@@ -22,6 +22,12 @@
       "description": "Exclude Storybook dependencies from Renovate",
       "matchPackagePatterns": ["storybook", "chromatic"],
       "enabled": false
+    },
+    {
+      "description": "Isolate package manager updates and merge minor/major into a single PR",
+      "matchPackageNames": ["pnpm"],
+      "groupName": "package manager",
+      "separateMajorMinor": false
     }
   ]
 }
