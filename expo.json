@@ -17,7 +17,8 @@
       "matchPackageNames": ["expo"],
       "groupName": "expo-dependencies",
       "minimumReleaseAge": "0 days",
-      "addLabels": ["expo-sdk"]
+      "addLabels": ["expo-sdk"],
+      "prPriority": 10
     }
   ]
 }

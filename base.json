@@ -5,6 +5,7 @@
   "dependencyDashboardApproval": false,
   "prCreation": "immediate",
   "automerge": true,
+  "prConcurrentLimit": 1,
   "pre-commit": {
     "enabled": true
   },
