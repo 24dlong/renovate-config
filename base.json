@@ -26,12 +26,6 @@
       "description": "Skip minimum release age for private registry packages",
       "matchRegistryUrls": ["https://dlong-081924037451.d.codeartifact.us-east-2.amazonaws.com"],
       "minimumReleaseAge": "0 days"
-    },
-    {
-      "description": "Group Expo updates separately and prioritize over other updates",
-      "matchPackageNames": ["expo", "expo-*", "@expo/*"],
-      "groupName": "expo-updates",
-      "prPriority": 10
     }
   ]
 }
