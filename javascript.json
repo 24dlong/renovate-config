@@ -19,6 +19,12 @@
       "groupName": "typescript-dependencies"
     },
     {
+      "description": "TypeScript majors need manual approval until typescript-eslint's peer range allows them",
+      "matchPackageNames": ["typescript"],
+      "matchUpdateTypes": ["major"],
+      "dependencyDashboardApproval": true
+    },
+    {
       "description": "Exclude Storybook dependencies from Renovate",
       "matchPackagePatterns": ["storybook", "chromatic"],
       "enabled": false
