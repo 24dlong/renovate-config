@@ -23,9 +23,11 @@
       "groupName": "minor-updates"
     },
     {
-      "description": "Never automerge major updates; require manual review",
+      "description": "Majors never open PRs on their own; opt in from the Dependency Dashboard when ready to do the migration",
       "matchUpdateTypes": ["major"],
-      "automerge": false
+      "dependencyDashboardApproval": true,
+      "automerge": false,
+      "addLabels": ["major"]
     },
     {
       "description": "Skip minimum release age for private registry packages",

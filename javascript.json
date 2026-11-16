@@ -19,18 +19,6 @@
       "groupName": "typescript-dependencies"
     },
     {
-      "description": "TypeScript majors need manual approval until typescript-eslint's peer range allows them",
-      "matchPackageNames": ["typescript"],
-      "matchUpdateTypes": ["major"],
-      "dependencyDashboardApproval": true
-    },
-    {
-      "description": "ESLint majors need manual approval until eslint-plugin-react and eslint-plugin-import (via eslint-config-expo) support ESLint 10",
-      "matchPackageNames": ["eslint", "@eslint/js"],
-      "matchUpdateTypes": ["major"],
-      "dependencyDashboardApproval": true
-    },
-    {
       "description": "Exclude Storybook dependencies from Renovate",
       "matchPackagePatterns": ["storybook", "chromatic"],
       "enabled": false
